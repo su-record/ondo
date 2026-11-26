@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+dist/
+*.dmg
+Resources/AppIcon-1024.png

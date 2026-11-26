@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>dev.torylabs.ondo.helper</string>
+	<key>BundleProgram</key>
+	<string>Contents/MacOS/ondo-helper</string>
+	<key>MachServices</key>
+	<dict>
+		<key>dev.torylabs.ondo.helper</key>
+		<true/>
+	</dict>
+	<!-- Starts at boot, which restores sleep (disablesleep 0) even if the app never runs again. -->
+	<key>RunAtLoad</key>
+	<true/>
+	<key>AssociatedBundleIdentifiers</key>
+	<array>
+		<string>dev.torylabs.ondo</string>
+	</array>
+</dict>
+</plist>
