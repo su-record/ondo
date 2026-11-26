@@ -3,7 +3,7 @@
 # After `scripts/make-dmg.sh`, set version and sha256 from its output and upload the DMG to the GitHub release.
 cask "ondo" do
   version "0.1.0"
-  sha256 "REPLACE_WITH_SHA256_OF_THE_DMG"
+  sha256 "2001d8bf77ed0172221c8b19bf9f04dc45e2d228945d0f24da3a01155461fcc8"
 
   url "https://github.com/su-record/ondo/releases/download/v#{version}/ondo-#{version}.dmg"
   name "ondo"
